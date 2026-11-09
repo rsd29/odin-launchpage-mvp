@@ -1,0 +1,11 @@
+﻿@import '@fontsource/manrope/latin-300.css';
+@import '@fontsource/manrope/latin-400.css';
+@import '@fontsource/manrope/latin-500.css';
+@import '@fontsource/manrope/latin-700.css';
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-user-select: none; user-select: none; caret-color: transparent; }
+input, textarea, [contenteditable="true"], [contenteditable="true"] * { -webkit-user-select: text; user-select: text; caret-color: auto; }
+html { color-scheme: dark; }
+body { font-family: 'Manrope', Arial, sans-serif; font-weight: 300; -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid #faf7ef; outline-offset: 4px; }
+::selection { background: #faf7ef; color: #333; }
