@@ -13,8 +13,10 @@ export default function Home() {
         </h1>
         <p className={styles.eyebrow}>
           <span>Forged In Fire</span>
-          <span>Rising From The Ashes</span>
-          <span>An Icon Reborn</span>
+          <span className={styles.eyebrowRow}>
+            <span>Rising From The Ashes</span>
+            <span>An Icon Reborn</span>
+          </span>
         </p>
         <Countdown />
         <NotifyForm />

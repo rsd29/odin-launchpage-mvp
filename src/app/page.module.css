@@ -2,9 +2,12 @@
 .page { --page-gutter: 5.5vw; padding-bottom: max(var(--page-gutter), env(safe-area-inset-bottom)); }
 .main { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 112px 24px 52px; }
 .brand { width: 192px; height: 252px; position: relative; overflow: hidden; flex-shrink: 0; }
-.brandArtwork { object-fit: contain; }
+/* odin-white.png is cropped unevenly (5px transparent left, 0px right of 506px), so the artwork sits 2.5px right of the image centre; shift it back. */
+.brandArtwork { object-fit: contain; transform: translateX(-0.5%); }
 .eyebrow { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0; margin-top: 34px; text-align: center; font-size: 20px; line-height: 30px; font-weight: 300; color: #b5b4aa; }
 .eyebrow > span { white-space: nowrap; }
+.eyebrow > .eyebrowRow { display: flex; flex-wrap: wrap; justify-content: center; column-gap: 0.3em; white-space: normal; }
+.eyebrowRow > span { white-space: nowrap; }
 .countdown { display: grid; grid-template-columns: repeat(4, 1fr); width: min(100%, 816px); margin-top: 53px; }
 .unit { display: flex; flex-direction: column; align-items: center; position: relative; }
 .unit + .unit::before { content: ''; position: absolute; height: 96px; top: 0; left: 0; width: 1px; background: #545450; }
