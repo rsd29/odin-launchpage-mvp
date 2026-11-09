@@ -12,10 +12,8 @@ export default function Home() {
           <Image src="/brand/odin-white.png" alt="Odin" fill sizes="(max-width: 431px) 38vw, (max-width: 600px) 164px, 192px" preload className={styles.brandArtwork} />
         </h1>
         <p className={styles.eyebrow}>
-          <span className={styles.eyebrowRow}>
-            <span>Rising From The Ashes.</span>
-            <span>An Icon Reborn.</span>
-          </span>
+          <span>Rising From The Ashes.</span>
+          <span>An Icon Reborn.</span>
         </p>
         <Countdown />
         <NotifyForm />

@@ -5,10 +5,7 @@
 /* odin-white.png is cropped unevenly (5px transparent left, 0px right of 506px), so the artwork sits 2.5px right of the image centre; shift it back. */
 .brandArtwork { object-fit: contain; transform: translateX(-0.5%); }
 .eyebrow { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0; margin-top: 34px; text-align: center; font-size: 20px; line-height: 30px; font-weight: 300; color: #b5b4aa; }
-.eyebrow > span { white-space: nowrap; }
-.eyebrow > .eyebrowRow { display: flex; flex-wrap: wrap; justify-content: center; column-gap: 0.3em; white-space: normal; }
-.eyebrowRow > span { white-space: nowrap; }
-.countdown { display: grid; grid-template-columns: repeat(4, 1fr); width: min(100%, 816px); margin-top: 53px; }
+.eyebrow > span { white-space: nowrap; }.countdown { display: grid; grid-template-columns: repeat(4, 1fr); width: min(100%, 816px); margin-top: 53px; }
 .unit { display: flex; flex-direction: column; align-items: center; position: relative; }
 .unit + .unit::before { content: ''; position: absolute; height: 96px; top: 0; left: 0; width: 1px; background: #545450; }
 .unit dd { font-family: var(--font-neue-montreal), Arial, sans-serif; font-size: 88px; line-height: 1; letter-spacing: -0.02em; font-weight: 500; font-variant-numeric: tabular-nums; }
