@@ -14,7 +14,7 @@ export default function Home() {
         <p className={styles.eyebrow}>
           <span className={styles.eyebrowRow}>
             <span>Rising From The Ashes.</span>
-            <span>An Icon Reborn</span>
+            <span>An Icon Reborn.</span>
           </span>
         </p>
         <Countdown />
